@@ -121,82 +121,23 @@ expo build:ios
 ```bash
 cd web
 npm run build
-firebase deploy --only hosting:web
+firebase deploy
 ```
 
-### Deploy Server
+### Deploy Link
 ```bash
-cd server
-firebase deploy --only functions
+cd link
+npm run build
+firebase deploy
 ```
 
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-1. Fork the repository
-2. Create your feature branch:
-```bash
-git checkout -b feature/AmazingFeature
-```
-3. Commit your changes:
-```bash
-git commit -m 'Add some AmazingFeature'
-```
-4. Push to the branch:
-```bash
-git push origin feature/AmazingFeature
-```
-5. Open a Pull Request
-
-## 📝 Environment Variables
-
-Create a `.env` file in each project directory:
-
-```env
-FIREBASE_API_KEY=your_api_key
-FIREBASE_AUTH_DOMAIN=your_auth_domain
-FIREBASE_DATABASE_URL=your_database_url
-FIREBASE_PROJECT_ID=your_project_id
-```
-
-## 🔑 Firebase Configuration
-
-Add your Firebase configuration in `app/src/config/firebase.js`:
-
-```javascript
-const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.FIREBASE_DATABASE_URL,
-  projectId: process.env.FIREBASE_PROJECT_ID,
-};
-```
 
 ## 📞 Contact
 
-Project Maintainer: Your Name
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+Project Maintainer: Divyanshu Dubey
+- Email: divyanshudubey2005@gmail.com
+- GitHub: [@divyanshu-007d](https://github.com/divyanshu-007d)
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🔍 Additional Resources
-
-- [API Documentation](docs/API.md)
-- [Contributing Guidelines](CONTRIBUTING.md)
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-
-## 🙏 Acknowledgments
-
-- React Native Community
-- Firebase Team
-- All contributors who have helped this project grow
-
----
-
-**Note:** Replace placeholder values (your_api_key, yourusername, etc.) with actual values before using this README.
