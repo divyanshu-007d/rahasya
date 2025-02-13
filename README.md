@@ -77,7 +77,7 @@ npm install -g expo-cli
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/rahasya.git
+git clone https://github.com/divyanshu-007d/rahasya.git
 cd rahasya
 ```
 
@@ -85,7 +85,7 @@ cd rahasya
 ```bash
 cd app
 npm install
-expo start
+npx expo start
 ```
 
 3. **Server Setup**
