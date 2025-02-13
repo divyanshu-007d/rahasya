@@ -58,6 +58,7 @@ rahasya/
 │   ├── public/
 │   └── firebase.json
 └── README.md
+└── LICENSE
 ```
 
 ## 🚀 Setup Instructions
